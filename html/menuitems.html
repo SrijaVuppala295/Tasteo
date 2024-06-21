@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Food Ordering Website</title>
+  <!-- BOOTSTRAP CDN LINK -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!-- BOOTSTRAP CDN LINK -->
+  <!-- GOOGLE FONTS LINK -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+  <!-- GOOGLE FONTS LINK -->
+
+ <link rel="stylesheet" href="../style.css">
+ <link rel="stylesheet" href="../css/menuitems.css">
+
+ 
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="navbar-left">
+          <a href="index.html" class="navbar-brand" id="logo"><img src="../assets/image (1).png" alt=""
+            style="width: 150px; height: 60px; padding-left: 20px;"></a>
+             <!-- <span class="locate-me">Locate Me</span>
+            <span class="location">MUMBAI</span>  -->
+        </div>
+        <div class="navbar-right">
+            <a href="index.html" class="nav-link"><i class="fa-solid fa-house"></i> Home</a>
+            <a href="./menu.html" class="nav-link"> <i class="fa-solid fa-bars"></i> Menu</a>
+            <a href="./search.html" class="nav-link"> <i class="fa-solid fa-magnifying-glass"></i> Search</a>
+            <a href="./cart.html" class="nav-link cart">
+              <i class="fa-solid fa-cart-shopping"></i> Cart <span class="cart-count">0</span>
+            </a>
+            <a href="./html/contact.html" class="nav-link"><i class="fa-solid fa-phone"></i> Contact</a>
+            <a href="./login.html" class="nav-link">  <i class="fa-solid fa-user"></i> Login</a>
+            <!-- <span class="online-status">
+                Online Status: <span class="status-dot"></span>
+            </span>  -->
+        
+    </div>
+    </nav>
+    
+      
+    <div class="menu-conatiner">
+        <div class="menu-header">
+            <div class="menu">
+                <h3>Chinese Wok</h3>
+                <p>Chinese, Asian</p>
+                <p>Kukatpally, 509.5 km</p>
+            </div>
+            <!-- <div class="rating">
+                <div class="rating-top">
+                    <i class="fa-solid fa-star"></i>
+                    <p>3.8</p>
+                </div>
+                <span>1K+ ratings</span>
+            </div> -->
+        </div>
+        <div class="menu-info">
+            <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_18,h_18/v1648635511/Delivery_fee_new_cjxumu" alt="">
+            <span>6.1 kms | ₹75 Delivery fee will be applicable</span>
+        </div>
+        <div class="menu-price">
+            <div class="menu-price-constainer">
+                <svg class="RestaurantTimeCost_icon__8UdT4" width="18" height="18" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg" fill="none"><circle r="8.35" transform="matrix(-1 0 0 1 9 9)" stroke="#3E4152" stroke-width="1.3"></circle><path d="M3 15.2569C4.58666 16.9484 6.81075 18 9.273 18C14.0928 18 18 13.9706 18 9C18 4.02944 14.0928 0 9.273 0C9.273 2.25 9.273 9 9.273 9C6.36399 12 5.63674 12.75 3 15.2569Z" fill="#3E4152"></path>
+                </svg>
+                <span>30 MINS</span>
+            </div>
+            <div class="menu-price-constainer">
+                <svg class="RestaurantTimeCost_icon__8UdT4" width="18" height="18" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg" fill="none"><circle cx="9" cy="9" r="8.25" stroke="#3E4152" stroke-width="1.5"></circle><path d="M12.8748 4.495H5.6748V6.04H7.9698C8.7948 6.04 9.4248 6.43 9.6198 7.12H5.6748V8.125H9.6048C9.3798 8.8 8.7648 9.22 7.9698 9.22H5.6748V10.765H7.3098L9.5298 14.5H11.5548L9.1098 10.57C10.2048 10.39 11.2698 9.58 11.4498 8.125H12.8748V7.12H11.4348C11.3148 6.475 10.9698 5.905 10.4298 5.5H12.8748V4.495Z" fill="#3E4152"></path></svg>
+                <span>₹250 for two</span>
+            </div>
+        </div>
+        <div class="menu-border">
+
+        </div>
+        <div>
+            <div class="category-conatiner">
+                <div class="category-header">
+                    <h3>Recommended (15)</h3>
+                    <i class="fa-solid fa-chevron-up"></i>
+                </div>
+                <div class="category-item">
+                    <div class="item-container">
+                        <div class="item-info">
+                            <i id="nonveg-logo" class="fa-regular fa-square-caret-up"></i>
+                            <h3>Combo for 1 Non-Veg</h3>
+                            <h4>₹379</h4>
+                            <p>Serves 1 | Combo for one (Rice/Noodle Bowl with choice of Non-Veg Gravy, Non- Veg Momos &amp; Drinks)</p>
+                        </div>
+                        <div class="item-img">
+                            <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/440c06ace44b931b729d9b6a090aba07">
+                            <button>ADD</button>
+                        </div>
+                    </div>
+                    <div class="item-container">
+                        <div class="item-info">
+                            <i id="veg-logo" class="fa-regular fa-circle-stop"></i>
+                            <h3>Combo for 1 Veg</h3>
+                            <h4>₹359</h4>
+                            <p>Serves 1 | Combo for one (Rice/Noodle Bowl with choice of Veg Gravy, Veg Momos &amp; Drinks)</p>
+                        </div>
+                        <div class="item-img">
+                            <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/3e4f7ca32bf517b390f1cb3205b892e4">
+                            <button>ADD</button>
+                        </div>
+                    </div>
+                    <div class="item-container">
+                        <div class="item-info">
+                            <i id="veg-logo" class="fa-regular fa-circle-stop"></i>
+                            <h3>Hunan Paneer Dry</h3>
+                            <h4>₹299</h4>
+                            <p>Serves 1 | (Spicy) Cubes Of Paneer, Onion, Capsicum Tossed With Spicy &amp; Savory flavors of Hunan Sauce.</p>
+                        </div>
+                        <div class="item-img">
+                            <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/FOOD_CATALOG/IMAGES/CMS/2024/4/1/556889e9-b065-4137-b72c-461bac300d01_2c92ca9c-be45-4732-b598-7904032b7dbb.jpg_compressed">
+                            <button>ADD</button>
+                        </div>
+                    </div>
+                    <div class="item-container">
+                                <div class="item-info">
+                                    <i id="veg-logo" class="fa-regular fa-circle-stop"></i>
+                                    <h3>Schezwan Paneer Dry</h3>
+                                    <h4>₹319</h4>
+                                    <p>Serves 1 | (Spicy) Cubes Of Paneer, Onion, Capsicum Tossed With Schezwan Sauce.</p>
+                                </div><div class="item-img">
+                                    <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/FOOD_CATALOG/IMAGES/CMS/2024/4/1/6a0e0e38-2636-4eff-af1a-a27f23fb292c_879376f5-f5b5-400c-86aa-aec499341475.jpg_compressed">
+                                    <button>ADD</button>
+                                </div>
+                            </div>
+                            <div class="item-container">
+                                <div class="item-info">
+                                    <i id="nonveg-logo" class="fa-regular fa-square-caret-up"></i>
+                                    <h3>Hunan Chicken Dry</h3>
+                                    <h4>₹339</h4>
+                                    <p>Serves 1 | (Spicy) Diced chicken, Onion, Capsicum Tossed With Spicy &amp; Savory flavors of Hunan Sauce.</p>
+                                </div>
+                                <div class="item-img"><img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/FOOD_CATALOG/IMAGES/CMS/2024/4/1/437b789a-adb8-4e75-8eff-e189113ffb30_6c98fe7d-1a74-4c71-8119-42b7993ab602.jpg_compressed">
+                                    <button>ADD</button>
+                                </div>
+                            </div>
+                            <div class="item-container">
+                                <div class="item-info">
+                                    <i id="nonveg-logo" class="fa-regular fa-square-caret-up"></i>
+                                    <h3>Schezwan Chicken Dry</h3>
+                                    <h4>₹339</h4>
+                                    <p>Serves 1 | (Spicy) Diced Chicken, Onion, Capsicum Tossed With Schezwan Sauce.</p>
+                                </div>
+                                <div class="item-img"><img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/FOOD_CATALOG/IMAGES/CMS/2024/4/1/12970b39-0711-4b74-87d4-39d40c352010_a22898b3-d397-4a79-9422-891fb7a17f76.jpg_compressed">
+                                    <button>ADD</button>
+                                </div>
+                            </div>
+                            <div class="item-container">
+                                <div class="item-info">
+                                    <i id="veg-logo" class="fa-regular fa-circle-stop"></i>
+                                    <h3>Steamed Veg Wheat Momos With Momo Chutney</h3>
+                                    <h4>₹250</h4>
+                                    <p>Serves 1 | Aromatic mixture of minced vegetables encased in wheat wrapper. Served with momo chutney</p>
+                                </div>
+                                <div class="item-img">
+                                    <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/fd1eeadc20ff34308ff365ae2ce45659">
+                                    <button>ADD</button>
+                                </div>
+                            </div>
+                            <div class="item-container">
+                                <div class="item-info">
+                                    <i id="nonveg-logo" class="fa-regular fa-square-caret-up"></i>
+                                    <h3>Steamed Chicken Wheat Momos With Momo Chutney</h3>
+                                    <h4>₹280</h4>
+                                    <p>Serves 1 | Aromatic chicken mince encased in wheat wrapper.Served with momo chutney</p>
+                                </div>
+                                <div class="item-img">
+                                    <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/34c4e4459727b4429974700d487a9b48">
+                                    <button>ADD</button>
+                                </div>
+                            </div>
+                            <div class="item-container">
+                                <div class="item-info">
+                                    <i id="veg-logo" class="fa-regular fa-circle-stop"></i>
+                                    <h3>Fried Veg Wheat Momos With Momo Chutney</h3>
+                                    <h4>₹270</h4>
+                                    <p>Serves 1 | Aromatic mixture of minced vegetables encased &amp; fried in wheat wrapper. Served with momo chutney</p>
+                                </div>
+                                <div class="item-img">
+                                    <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/800f58db1ea02ccfb12f8d13667c7a79">
+                                    <button>ADD</button>
+                                </div>
+                            </div>
+                            <div class="item-container">
+                                <div class="item-info"><i id="nonveg-logo" class="fa-regular fa-square-caret-up"></i><h3>Fried Chicken Wheat Momos With Momo Chutney</h3><h4>₹300</h4><p>Serves 1 | Aromatic chicken mince encased &amp; fried in wheat wrapper. Served with momo chutney</p></div><div class="item-img"><img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/8c5022135bbffbd592814e53e3c59c60"><button>ADD</button></div></div>
+                                
+                                <div class="item-container"><div class="item-info"><i id="veg-logo" class="fa-regular fa-circle-stop"></i><h3>Steamed Veg Wheat Momos With Momo Chutney - 12 Pcs</h3><h4>₹340</h4><p>Serves 1 | Aromatic mixture of minced vegetables encased in wheat wrapper. Served with momo chutney</p></div><div class="item-img"><img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/FOOD_CATALOG/IMAGES/CMS/2024/3/6/d4f6ab96-c8bc-4c56-b266-e28fecf74381_c53f1223-055b-4506-b6af-cd82a20632c2_compressed"><button>ADD</button></div></div>
+                                
+                                <div class="item-container"><div class="item-info"><i id="veg-logo" class="fa-regular fa-circle-stop"></i><h3>Hunan Paneer Bowl</h3><h4>₹319</h4><p>Serves 1 | (Spicy)  Paneer, Onion, Capsicum, tossed in Spicy &amp; Savory Hunan Sauce With Choice Rice/ Noodle</p></div><div class="item-img"><img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/FOOD_CATALOG/IMAGES/CMS/2024/4/1/6b5529a4-2662-4e49-8f5a-799ff17cb2e0_26bd931d-9f27-49f0-8d00-3e4e82a67b0e.jpg_compressed"><button>ADD</button></div></div>
+                                
+                                <div class="item-container"><div class="item-info"><i id="nonveg-logo" class="fa-regular fa-square-caret-up"></i><h3>Hunan Chicken Bowl</h3><h4>₹309</h4><p>Serves 1 | (Spicy) Chicken, Onion, Capsicum Tossed In Spicy &amp; Savory Hunan Sauce, Served With Choice Of Rice/ Noodle.</p></div><div class="item-img"><img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/FOOD_CATALOG/IMAGES/CMS/2024/4/1/e0fd50b4-c63b-435f-a1ec-3ef980dded03_2130d38e-0eb1-4b92-b74e-b79bcf766d40.jpg"><button>ADD</button></div></div>
+                                
+                                <div class="item-container"><div class="item-info"><i id="veg-logo" class="fa-regular fa-circle-stop"></i><h3>Black forest Mousse Cake</h3><h4>₹59</h4><p>Serves 1 | Evergreen cake recipe, served in a mousse style dessert</p></div><div class="item-img"><img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/8ba0f3247c029df99f689b410d955859"><button>ADD</button></div></div>
+                                
+                                <div class="item-container"><div class="item-info"><i id="veg-logo" class="fa-regular fa-circle-stop"></i><h3>Salted Caramel Choco Mousse</h3><h4>₹59</h4><p>Serves 1 | Layers of Salted Caramel mousse and Choco mousse served chilled</p></div><div class="item-img"><img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/3ded4072d30fde445c7e3bbc4d442b5f"><button>ADD</button></div></div></div></div><div class="menu-border"></div></div><div><div class="category-conatiner"><div class="category-header">
+                                    
+                            <h3>Drinks (9)</h3>
+                            <i class="fa-solid fa-chevron-up"></i>
+                        </div>
+                        <div class="category-item">
+                            <div class="item-container">
+                                <div class="item-info">
+                                    <i id="veg-logo" class="fa-regular fa-circle-stop"></i><h3>Pepsi Pet Bottle</h3><h4>₹60</h4><p>Serves 1</p></div><div class="item-img"><img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/12b08bb69e0309ca812b61d18687ba54"><button>ADD</button></div></div>
+                                    
+                                    <div class="item-container"><div class="item-info"><i id="veg-logo" class="fa-regular fa-circle-stop"></i><h3>Coolberg Cranberry</h3><h4>₹125</h4><p>Serves 1</p></div><div class="item-img"><img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/88ac3e904d023c08fab7760349831143"><button>ADD</button></div></div>
+                                    
+                                    <div class="item-container"><div class="item-info"><i id="veg-logo" class="fa-regular fa-circle-stop"></i><h3>7 Up</h3><h4>₹60</h4><p>Serves 1</p></div><div class="item-img"><img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/c421918afec28477d19a4fd1726f5cbb"><button>ADD</button></div></div>
+                                    
+                                    <div class="item-container"><div class="item-info"><i id="veg-logo" class="fa-regular fa-circle-stop"></i><h3>Water</h3><h4>₹30</h4><p>Serves 1</p></div><div class="item-img"><img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/undefined"><button>ADD</button></div></div>
+                                    
+                                    <div class="item-container"><div class="item-info"><i id="veg-logo" class="fa-regular fa-circle-stop"></i><h3>Coolberg Peach</h3><h4>₹125</h4><p>Serves 1</p></div><div class="item-img"><img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/c625bfc8302aee8b090fd08ac485cb6d"><button>ADD</button></div></div>
+                                    
+                                    <div class="item-container"><div class="item-info"><i id="veg-logo" class="fa-regular fa-circle-stop"></i><h3>Peach Ice Tea</h3><h4>₹99</h4><p>Serves 1</p></div><div class="item-img"><img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/4078524cba8676a8a807681708cd4f3b"><button>ADD</button></div></div>
+                                    
+                                    <div class="item-container"><div class="item-info"><i id="veg-logo" class="fa-regular fa-circle-stop"></i><h3>Aam Panna</h3><h4>₹99</h4><p>Serves 1</p></div><div class="item-img"><img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/fac1ddd7b1728bb4b6dfd4f54c134ab2"><button>ADD</button></div></div>
+                                    
+                                    <div class="item-container"><div class="item-info"><i id="veg-logo" class="fa-regular fa-circle-stop"></i><h3>Masala Shikanji</h3><h4>₹99</h4><p>Serves 1</p></div><div class="item-img"><img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/b20438df296526bbc0493fef83368cbe"><button>ADD</button></div></div>
+                                    
+                                    
+                                    <div class="item-container"><div class="item-info"><i id="veg-logo" class="fa-regular fa-circle-stop"></i><h3>Lemon Ice Tea</h3><h4>₹99</h4><p>Serves 1</p></div><div class="item-img"><img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/bb6b1ef0841d211b629719a4c3deb623"><button>ADD</button></div></div></div></div><div class="menu-border"></div></div><div><div class="category-conatiner"><div class="category-header">
+                                        
+                                <h3>Dessert (4)</h3>
+                                <i class="fa-solid fa-chevron-up"></i>
+                            </div>
+                            <div class="category-item">
+                                <div class="item-container">
+                                    <div class="item-info">
+                                        <i id="veg-logo" class="fa-regular fa-circle-stop"></i>
+                                        <h3>Choco Lava</h3><h4>₹99</h4><p>Serves 1 | Rich chocolate cake with molten chocolate center, served warm.</p></div><div class="item-img"><img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/29dcf869cd4eaa4df85019237ee67982"><button>ADD</button></div></div>
+                                        
+                                        <div class="item-container"><div class="item-info"><i id="veg-logo" class="fa-regular fa-circle-stop"></i><h3>Chocolate Mousse - Small</h3><h4>₹59</h4><p>Serves 1 | Creamy chocolate mousse layered with moist chocolate cake.</p></div><div class="item-img"><img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/ca711b079751ea33fe269fb647d16cc6"><button>ADD</button></div></div>
+                                        
+                                        <div class="item-container"><div class="item-info"><i id="veg-logo" class="fa-regular fa-circle-stop"></i><h3>Black forest Mousse Cake</h3><h4>₹59</h4><p>Serves 1 | Evergreen cake recipe, served in a mousse style dessert</p></div><div class="item-img"><img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/8ba0f3247c029df99f689b410d955859"><button>ADD</button></div></div>
+                                        
+                                        <div class="item-container"><div class="item-info"><i id="veg-logo" class="fa-regular fa-circle-stop"></i><h3>Salted Caramel Choco Mousse</h3><h4>₹59</h4><p>Serves 1 | Layers of Salted Caramel mousse and Choco mousse served chilled</p></div><div class="item-img"><img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/3ded4072d30fde445c7e3bbc4d442b5f"><button>ADD</button></div></div></div></div><div class="menu-border"></div></div><div><div class="category-conatiner"><div class="category-header">
+                                            
+                                    <h3>Pot Rice (3)</h3>
+                                    <i class="fa-solid fa-chevron-up"></i>
+                                </div>
+                                <div class="category-item">
+                                    <div class="item-container">
+                                        <div class="item-info">
+                                            <i id="nonveg-logo" class="fa-regular fa-square-caret-up"></i>
+                                            <h3>Chicken Pot Rice</h3><h4>₹455</h4><p>Serves 2</p></div><div class="item-img"><img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/9e2e059b65d3855823ca507595ebe350"><button>ADD</button></div></div>
+                                            
+                                            <div class="item-container"><div class="item-info"><i id="veg-logo" class="fa-regular fa-circle-stop"></i><h3>Veg Manchurian Pot Rice</h3><h4>₹425</h4><p>Serves 1</p></div><div class="item-img"><img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/b070b7161ba21152911305c9ef19d383"><button>ADD</button></div></div>
+                                            
+                                            <div class="item-container"><div class="item-info"><i id="veg-logo" class="fa-regular fa-circle-stop"></i><h3>Paneer Pot Rice</h3><h4>₹425</h4><p>Serves 1</p></div><div class="item-img"><img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/a2fe0e7f6d4250df5ba4c37feb936f72"><button>ADD</button></div></div></div></div><div class="menu-border"></div></div><div><div class="category-conatiner"><div class="category-header">
+                                        <h3>Extras (5)</h3>
+                                        <i class="fa-solid fa-chevron-up"></i>
+                                    </div>
+                                    <div class="category-item">
+                                        <div class="item-container">
+                                            <div class="item-info"><i id="veg-logo" class="fa-regular fa-circle-stop"></i><h3>Crispy Noodles</h3><h4>₹20</h4><p>Serves 1</p></div><div class="item-img"><img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/ee5eff88d414fbb62db96955497b3506"><button>ADD</button></div></div>
+                                            
+                                            <div class="item-container"><div class="item-info"><i id="veg-logo" class="fa-regular fa-circle-stop"></i><h3>Extra Schezwan Dip</h3><h4>₹20</h4><p>Serves 1</p></div><div class="item-img"><img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/7fad74d38be24e7be6ebc8eebbb3ee4e"><button>ADD</button></div></div>
+                                            
+                                            <div class="item-container"><div class="item-info"><i id="veg-logo" class="fa-regular fa-circle-stop"></i><h3>Extra Mayo Dip</h3><h4>₹20</h4><p>Serves 1</p></div><div class="item-img"><img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/8389646190f90fdc187c9e4bc3f79b0c"><button>ADD</button></div></div>
+                                            
+                                            <div class="item-container"><div class="item-info"><i id="veg-logo" class="fa-regular fa-circle-stop"></i><h3>Extra Sweet Chilli Dip</h3><h4>₹20</h4><p>Serves 1</p></div><div class="item-img"><img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/756739f826fd170b5ed4644f61a2d824"><button>ADD</button></div></div>
+                                            
+                                            <div class="item-container"><div class="item-info"><i id="veg-logo" class="fa-regular fa-circle-stop"></i><h3>Extra Momo Chutney</h3><h4>₹20</h4><p>Serves 1</p></div><div class="item-img"><img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/b7590e951c596a6c3afa775d445e5e72"><button>ADD</button></div></div></div></div><div class="menu-border"></div></div></div>
+
+
+      
+</body>
+</html>
